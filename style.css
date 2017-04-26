@@ -58,7 +58,6 @@ h1 {
 }
 
 h2 {
-    height: 75px;
     margin: 50px auto;
     padding: 15px 10px;
     font-weight: 600;
@@ -80,8 +79,10 @@ h2:hover {
 }
 
 section h2 {
-  margin: 30px auto;
+    margin: 30px auto;
 }
+
+
 /* HEADER */
 
 .menu-main a {
@@ -151,6 +152,7 @@ section h2 {
     text-align: center;
     color: red;
 }
+
 
 /* MAIN MENU */
 
@@ -243,6 +245,7 @@ section h2 {
     box-shadow: inset 0px 2px 0px #1d64b2;
 }
 
+
 /* ALL PAGE */
 
 .center {
@@ -317,15 +320,6 @@ section h2 {
     border-left-color: #00abe1;
 }
 
-.cause-text {
-    float: left;
-    width: 180px;
-    margin: 20px;
-    text-align: center;
-    font-variant: small-caps;
-    font-size: 16px;
-}
-
 .process-frame {
     width: 120px;
     margin: auto;
@@ -359,6 +353,7 @@ section h2 {
     background-image: url('http://www.visaeasy.com.ua/wp-content/uploads/2017/04/bank.png');
 }
 
+
 /* TABLE-PRICE, LIST */
 
 .table {
@@ -391,6 +386,10 @@ section h2 {
     border-style: solid;
     border-width: 0 1px 1px 0;
     border-color: #f4f5f6;
+}
+
+.table td:last-child {
+    border-width: 0 0px 1px 0;
 }
 
 .table-ul {
@@ -430,10 +429,11 @@ section h2 {
 }
 
 .table-list li::before {
-  font-size: 18px;
-  font-family: 'FontAwesome';
-  content: "\f072\ ";
-  }
+    font-size: 18px;
+    font-family: 'FontAwesome';
+    content: "\f072\ ";
+}
+
 
 /* MAIN PAGE*/
 
@@ -608,6 +608,7 @@ section h2 {
     background-position: 0px -741px;
 }
 
+
 /*  ZAGRANPASSPORT */
 
 .procedure-text {
@@ -620,7 +621,7 @@ section h2 {
 }
 
 .visaUSA-cause__block {
-    width: 370px;
+    max-width: 370px;
     height: 128px;
     margin: auto;
     margin-bottom: 50px;
@@ -637,6 +638,15 @@ section h2 {
     height: 88px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+
+.cause-text {
+    float: left;
+    max-width: 180px;
+    margin: 20px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 16px;
 }
 
 .asia-flag-frame {
@@ -663,14 +673,14 @@ section h2 {
 }
 
 .schengen-flag-frame a {
-  display: block;
+    display: block;
 }
 
 .shengen-flag__img {
-  width: 200px;
-  height: 100px;
-  margin: auto;
-  background-size: 100% 100%;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    background-size: 100% 100%;
 }
 
 .schengen-text-frame {
@@ -687,6 +697,7 @@ section h2 {
     margin: 60px auto;
 }
 
+
 /* PARTHNERS */
 
 .partners {
@@ -697,91 +708,91 @@ section h2 {
     margin: 20px auto;
 }
 
+
 /* Parallax */
 
 .parallax-viewport {
-  position: relative;
-  height: 70vh;
-  overflow: hidden;
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
 }
 
 .parallax-img {
-  position: absolute;
-  width: 100%;
-  height: 40px;
-  z-index: 4;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    z-index: 4;
 }
 
 .parallax-bg {
-  position: absolute;
-  top: 40%;
-  z-index: 5;
-  width: 100%;
-  height: 40px;
-  margin-top: -50px;
+    position: absolute;
+    top: 40%;
+    z-index: 5;
+    width: 100%;
+    height: 40px;
+    margin-top: -50px;
 }
 
 .parallax-content {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  z-index: 6;
-  height: 40px;
-  margin-top: -20px;
-  margin-left: -45%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    z-index: 6;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -45%;
 }
 
 .advantages-bg__field_white {
-  width: 100%;
-  height: 250px;
-  background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .advantages-caption {
-  margin-top: -25px;
-  margin-bottom: 10px;
-  font-size: 20px;
-  font-weight: 600;
-  font-variant: small-caps;
+    margin-top: -25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-variant: small-caps;
 }
 
 .advantages .process-text {
-  margin: 10px 0;
+    margin: 10px 0;
 }
 
 .table-man-block__field_white {
-  max-width: 600px;
-  height: 300px;
-  background-color: rgba(255, 255, 255, 0.7);
+    max-width: 600px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .parallax-man__jpg {
-  height: 1330px;
-  background-size: 100% 100%;
-  background-image: url(http://www.visaeasy.com.ua/wp-content/uploads/2017/04/parallax-man.jpg);
+    height: 1330px;
+    background-size: 100% 100%;
+    background-image: url(http://www.visaeasy.com.ua/wp-content/uploads/2017/04/parallax-man.jpg);
 }
 
 .parallax-table-man__list {
-  margin-bottom: 10px;
-  padding-left: 0px;
-  text-align: left;
-  font-size: 20px;
-  list-style-type: none;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    text-align: left;
+    font-size: 20px;
+    list-style-type: none;
 }
 
-
 .parallax-table-man__list li::before {
-  position: relative;
-  bottom: 2px;
-  display: inline-block;
-  transform: rotate(45deg);
-  font-size: 15px;
-  font-family: 'FontAwesome';
-  content: "\f072\ ";
+    position: relative;
+    bottom: 2px;
+    display: inline-block;
+    transform: rotate(45deg);
+    font-size: 15px;
+    font-family: 'FontAwesome';
+    content: "\f072\ ";
 }
 
 .parallax-table-man__list div {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 
@@ -797,7 +808,7 @@ footer {
     background-image: linear-gradient(top, #31353a, #2f3337);
     border-top: 10px solid #1e9ed9;
     border-bottom: 30px solid #1e2023;
-    box-shadow: 0px -9px 5px 0 rgba(0,0,0,.11);
+    box-shadow: 0px -9px 5px 0 rgba(0, 0, 0, .11);
 }
 
 .footer-block__logo {
@@ -929,7 +940,6 @@ footer span {
     vertical-align: super;
 }
 
-
 #fixed-menu {
     position: fixed;
     z-index: 999;
@@ -944,24 +954,35 @@ footer span {
     box-shadow: 0px 2px 0px #439fe0;
 }
 
-@media (min-width: 365px) {
+@media (max-width: 768px) {
     h1 {
-        font-size: 40px;
+      padding-top: 235px;
+      font-size: 40px;
     }
     h2 {
-        width: auto;
-        height: 42px;
+        width: 300px;
         padding: 5px;
         font-size: 20px;
     }
     .header {
-        font-size: 6px;
+        font-size: 9px;
     }
     .header ul li {
-        width: 66px;
+        width: 60px;
     }
-    .footer-block {
-        border-right: none;
+    .page-img {
+      height: 300px;
+      margin-top: -235px;
+    }
+    .visaUSA-cause__block {
+      padding-left: 10px;
+    }
+    .cause-text {
+      margin: 20px auto;
+    }
+    .footer-block__logo,
+    .footer-block__social {
+      border: none;
     }
 }
 
@@ -976,7 +997,6 @@ footer span {
 
 @media (min-width: 768px) {
     h2 {
-        height: 75px;
         padding: 15px 10px;
         width: 400px;
         font-size: 28px;
@@ -991,7 +1011,7 @@ footer span {
         border: none;
     }
     .advantages-bg__field_white {
-      height: 260px;
+        height: 260px;
     }
 }
 
@@ -1015,6 +1035,6 @@ footer span {
         width: 234px;
     }
     .advantages-bg__field_white {
-      height: 250px;
+        height: 250px;
     }
 }
