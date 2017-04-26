@@ -436,6 +436,10 @@ section h2 {
 
 
 /* MAIN PAGE*/
+.visa-any-country {
+    min-height: 475px;
+    margin-bottom: 50px;
+}
 
 .flags {
     float: left;
@@ -608,6 +612,9 @@ section h2 {
     background-position: 0px -741px;
 }
 
+.min-doc {
+    min-height: 475px;
+}
 
 /*  ZAGRANPASSPORT */
 
@@ -713,7 +720,7 @@ section h2 {
 
 .parallax-viewport {
     position: relative;
-    height: 70vh;
+    height: 475px;
     overflow: hidden;
 }
 

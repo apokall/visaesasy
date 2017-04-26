@@ -6,9 +6,9 @@
 			$('#fixed-menu').slideUp( "fust", function() { });
 
       var st = $(this).scrollTop();
-      var paralaxIcone = st - 1150;
+      var paralaxIcone = st - 1250;
       var paralaxImage = st - 550;
-      var paralaxTable = st - 2100;
+      var paralaxTable = st - 2200;
 
 
       $("#advantages__content").css({
