@@ -89,50 +89,9 @@
   src="https://code.jquery.com/jquery-1.12.4.min.js"
   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
   crossorigin="anonymous"></script>
-<script src="<?php bloginfo("template_directory"); ?>/bootstrap.js"></script>
 <script src="<?php bloginfo("template_directory"); ?>/owlcarousel/owl.carousel.min.js"></script>
-<script>
- $(document).ready(function() {
-	$(window).scroll(function(){
-		if(document.body.scrollTop > 450)
-			$('#fixed-menu').slideDown( "slow", function() { });
-		else
-			$('#fixed-menu').slideUp( "fust", function() { });
-	});
-  $("#slider").owlCarousel({
-    items: 1,
-    loop: true,
-    autoplay: true,
-    animateOut: 'fadeOut'
-  });
-});
-</script>
-
- <script>
- window.ChatraSetup = {
- colors: {
- 		buttonText: '#f5f5f5',
- 		buttonBg: '#62b9e4',
- 		chatBg: '#fff',
- 		clientBubbleBg: '#62b9e4',
- 		agentBubbleBg: '#deffff'
- }
- };
- ChatraID = 'Jw64FSNxmQfsvk9Zm';
- (function(d, w, c) {
- 		var n = d.getElementsByTagName('script')[0],
- 				s = d.createElement('script');
- 		w[c] = w[c] || function() {
- 				(w[c].q = w[c].q || []).push(arguments);
- 		};
- 		s.async = true;
- 		s.src = (d.location.protocol === 'https:' ? 'https:': 'http:')
- 				+ '//call.chatra.io/chatra.js';
- 		n.parentNode.insertBefore(s, n);
- })(document, window, 'Chatra');
- </script>
-
- <script type="text/javascript">
+<script src="<?php bloginfo("template_directory"); ?>/script.js"></script>
+<script type="text/javascript">
      (function (d, w, c) {
          (w[c] = w[c] || []).push(function() {
              try {
@@ -156,9 +115,8 @@
              d.addEventListener("DOMContentLoaded", f, false);
          } else { f(); }
      })(document, window, "yandex_metrika_callbacks");
- </script>
-
- <noscript><div><img src="https://mc.yandex.ru/watch/40608025" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/40608025" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 
 </body>
 </html>
